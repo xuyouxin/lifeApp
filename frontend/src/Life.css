@@ -1,0 +1,30 @@
+.content {
+    position: absolute;
+    top: 0;
+    bottom: 140px;
+    background: lightgreen;
+    width: 100%;
+    overflow-y: scroll;
+}
+
+.items {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 140px;
+    padding-top: 10px;
+    border-top: 2px solid lightgrey;
+}
+
+.item {
+    height: 82px;
+    width: 82px;
+    text-align: center;
+    margin: 0 auto;
+    cursor: pointer;
+}
+
+.itemTitle {
+    text-align: center;
+    font-size: 30px;
+}
