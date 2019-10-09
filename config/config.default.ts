@@ -28,9 +28,6 @@ module.exports = (appInfo: EggAppInfo) => {
       url: 'mongodb://cdwc.top/life',
       options: {
         poolSize: 5,
-        socketOptions: {
-          autoReconnect: true,
-        },
         reconnectTries: 30,
         reconnectInterval: 10000,
       },
